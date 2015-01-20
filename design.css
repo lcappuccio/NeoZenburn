@@ -1,4 +1,6 @@
-/* Basic Body Structure */
+/* Basic Body Structure 
+ * Nick colors from: http://www.flatuicolorpicker.com
+ */
 
 * {
 	margin: 0;
@@ -356,16 +358,14 @@ div[ltype*=nick] .message:before {
 
 /* @end */
 
-/* @end */
-
 /* @group Own Messages */
 
 .sender[mtype*=myself] {
-	color: #f8f893; /* NeoZenburnesque: Blue */
+	color: #19B5FE; /* NeoZenburnesque: Dodger Blue */
 }
 
 div[mtype*=myself] {
-	background-color: #242424; /* NeoZenburnesque */
+	background-color: #34495E; /* NeoZenburnesque: Pickled BlueWood */
 }
 
 /* @end */
@@ -374,157 +374,132 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='0'],
 .inline_nickname[colornumber='0'] {
-	color: #f18c96; /* NeoZenburnesque: Red */
+	color: #D24D57; /* NeoZenburnesque: Chestnut Rose */
 }
 
 .sender[mtype*=normal][colornumber='1'],
 .inline_nickname[colornumber='1'] {
-	color: #bc6c4c; /* NeoZenburnesque: Orange */
+	color: #D64541; /* NeoZenburnesque: Valencia */
 }
 
 .sender[mtype*=normal][colornumber='2'],
 .inline_nickname[colornumber='2'] {
-	color: #f8f893; /* NeoZenburnesque: Yellow */
+	color: #F64747; /* NeoZenburnesque: Sunset Orange */
 }
 
 .sender[mtype*=normal][colornumber='3'],
 .inline_nickname[colornumber='3'] {
-	color: #88b090; /* NeoZenburnesque: Green */
+	color: #E26A6A; /* NeoZenburnesque: Sunglo */
 }
 
 .sender[mtype*=normal][colornumber='4'],
 .inline_nickname[colornumber='4'] {
-	color: #8cd0d3; /* NeoZenburnesque: Aqua */
+	color: #913D88; /* NeoZenburnesque: Plum */
 }
 
 .sender[mtype*=normal][colornumber='5'],
 .inline_nickname[colornumber='5'] {
-	color: #bc8cbc; /* NeoZenburnesque: Purple */
+	color: #9B59B6; /* NeoZenburnesque: Wisteria */
 }
 
 .sender[mtype*=normal][colornumber='6'],
 .inline_nickname[colornumber='6'] {
-	color: #bc6c9c; /* NeoZenburnesque NeoZenburnesque: Red */
+	color: #81CFE0; /* NeoZenburnesque: Spray */
 }
 
 .sender[mtype*=normal][colornumber='7'],
 .inline_nickname[colornumber='7'] {
-	color: #ffcfaf; /* NeoZenburnesque NeoZenburnesque: Orange */
+	color: #1E8BC3; /* NeoZenburnesque: Curious Blue */
 }
 
 .sender[mtype*=normal][colornumber='8'],
 .inline_nickname[colornumber='8'] {
-	color: #ffcfaf; /* NeoZenburnesque NeoZenburnesque: Yellow */
+	color: #A2DED0; /* NeoZenburnesque: Aqua Island */
 }
 
 .sender[mtype*=normal][colornumber='9'],
 .inline_nickname[colornumber='9'] {
-	color: #9ccc9c; /* NeoZenburnesque NeoZenburnesque: Green */
+	color: #68C3A3; /* NeoZenburnesque: Silver Tree */
 }
 
 .sender[mtype*=normal][colornumber='10'],
 .inline_nickname[colornumber='10'] {
-	color: #c0bed1; /* NeoZenburnesque NeoZenburnesque: Aqua */
+	color: #36D7B7; /* NeoZenburnesque: Turquoise */
 }
 
 .sender[mtype*=normal][colornumber='11'],
 .inline_nickname[colornumber='11'] {
-	color: #6c6c9c; /* NeoZenburnesque NeoZenburnesque: Purple */
+	color: #3FC380; /* NeoZenburnesque: Emerald */
 }
 
 .sender[mtype*=normal][colornumber='12'],
 .inline_nickname[colornumber='12'] {
-	color: #D54E53; /* NeoZenburnesque NeoZenburnesque Bright: Red */
+	color: #F89406; /* NeoZenburnesque: California */
+}
+
+.sender[mtype*=normal][colornumber='12'],
+.inline_nickname[colornumber='12'] {
+	color: #F9BF3B; /* NeoZenburnesque: SandStorm */
 }
 
 .sender[mtype*=normal][colornumber='13'],
 .inline_nickname[colornumber='13'] {
-	color: #E78C45; /* NeoZenburnesque NeoZenburnesque Bright: Orange */
+	color: #D91E18; /* NeoZenburnesque: Thunderbird */
 }
 
 .sender[mtype*=normal][colornumber='14'],
 .inline_nickname[colornumber='14'] {
-	color: #E7C547; /* NeoZenburnesque NeoZenburnesque Bright: Yellow */
+	color: #96281B; /* NeoZenburnesque: Old Brick */
 }
 
 .sender[mtype*=normal][colornumber='15'],
 .inline_nickname[colornumber='15'] {
-	color: #B9CA4A; /* NeoZenburnesque NeoZenburnesque Bright: Green */
+	color: #D2527F; /* NeoZenburnesque: Cabaret */
 }
 
 .sender[mtype*=normal][colornumber='16'],
 .inline_nickname[colornumber='16'] {
-	color: #70C0B1; /* NeoZenburnesque NeoZenburnesque Bright: Aqua */
+	color: #1E824C; /* NeoZenburnesque: Salem */
 }
 
 .sender[mtype*=normal][colornumber='17'],
 .inline_nickname[colornumber='17'] {
-	color: #C397D8; /* NeoZenburnesque NeoZenburnesque Bright: Purple */
+	color: #F2784B; /* NeoZenburnesque: Crusta */
 }
 
 .sender[mtype*=normal][colornumber='18'],
 .inline_nickname[colornumber='18'] {
-	color: #AC4142; /* base16: Red */
+	color: #D35400; /* NeoZenburnesque: Burnt Orange */
 }
 
 .sender[mtype*=normal][colornumber='19'],
 .inline_nickname[colornumber='19'] {
-	color: #D28445; /* base16: Orange */
+	color: #BE90D4; /* NeoZenburnesque: Light Wisteria */
 }
 
 .sender[mtype*=normal][colornumber='20'],
 .inline_nickname[colornumber='20'] {
-	color: #F4Bf75; /* base16: Yellow */
+	color: #C5EFF7; /* NeoZenburnesque: Humming Bird */
 }
 
 .sender[mtype*=normal][colornumber='21'],
 .inline_nickname[colornumber='21'] {
-	color: #90A959; /* base16: Green */
+	color: #87D37C; /* NeoZenburnesque: Gossib */
 }
 
 .sender[mtype*=normal][colornumber='22'],
 .inline_nickname[colornumber='22'] {
-	color: #75B5AA; /* base16: Aqua */
+	color: #FDE3A7; /* NeoZenburnesque: Cape Honey */
 }
 
 .sender[mtype*=normal][colornumber='23'],
 .inline_nickname[colornumber='23'] {
-	color: #AA750F; /* base16: Purple */
+	color: #95A5A6; /* NeoZenburnesque: Cascade */
 }
 
 .sender[mtype*=normal][colornumber='24'],
 .inline_nickname[colornumber='24'] {
-	color: #CC6666; /* NeoZenburnesque Night: Red */
-}
-
-.sender[mtype*=normal][colornumber='25'],
-.inline_nickname[colornumber='25'] {
-	color: #DE935F; /* NeoZenburnesque Night: Orange */
-}
-
-.sender[mtype*=normal][colornumber='26'],
-.inline_nickname[colornumber='26'] {
-	color: #F0C674; /* NeoZenburnesque Night: Yellow */
-}
-
-.sender[mtype*=normal][colornumber='27'],
-.inline_nickname[colornumber='27'] {
-	color: #B5BD68; /* NeoZenburnesque Night: Green */
-}
-
-.sender[mtype*=normal][colornumber='28'],
-.inline_nickname[colornumber='28'] {
-	color: #8ABEB7; /* NeoZenburnesque Night: Aqua */
-}
-
-.sender[mtype*=normal][colornumber='29'],
-.inline_nickname[colornumber='29'] {
-	color: #B294BB; /* NeoZenburnesque Night: Purple */
-}
-
-.sender[mtype*=normal][colornumber='30'],
-.inline_nickname[colornumber='30'] {
-	color: #BBDAFF; /* NeoZenburnesque NeoZenburnesqueBlue: Blue */
+	color: #F22613; /* NeoZenburnesque: Pomegranate */
 }
 
 /* @end */
@@ -534,67 +509,67 @@ div[mtype*=myself] {
 /* @group Foreground Colors */
 
 .effect[color-number='0'] {
-	color: #D6D6D6 !important; /* NeoZenburnesque: Selection */
+	color: #D6D6D6 !important; /* Selection */
 }
 
 .effect[color-number='1'] {
-	color: #4D4D4C !important; /* NeoZenburnesque: Foreground */
+	color: #4D4D4C !important; /* Foreground */
 }
 
 .effect[color-number='2'] {
-	color: #4271AE !important; /* NeoZenburnesque: Blue */
+	color: #4271AE !important; /* Blue */
 }
 
 .effect[color-number='3'] {
-	color: #718C00 !important; /* NeoZenburnesque: Green */
+	color: #718C00 !important; /* Green */
 }
 
 .effect[color-number='4'] {
-	color: #C82829 !important; /* NeoZenburnesque: Red */
+	color: #C82829 !important; /* Red */
 }
 
 .effect[color-number='5'] {
-	color: #DE935F !important; /* NeoZenburnesque Night: Red */
+	color: #DE935F !important; /* Red */
 }
 
 .effect[color-number='6'] {
-	color: #8959A8 !important; /* NeoZenburnesque: Purple */
+	color: #8959A8 !important; /* Purple */
 }
 
 .effect[color-number='7'] {
-	color: #F5871F !important; /* NeoZenburnesque: Orange */
+	color: #F5871F !important; /* Orange */
 }
 
 .effect[color-number='8'] {
-	color: #EAB700 !important; /* NeoZenburnesque: Yellow */
+	color: #EAB700 !important; /* Yellow */
 }
 
 .effect[color-number='9'] {
-	color: #B9CA4A !important; /* NeoZenburnesque NeoZenburnesqueBright: Green */
+	color: #B9CA4A !important; /* Green */
 }
 
 .effect[color-number='10'] {
-	color: #3E999F !important; /* NeoZenburnesque: Aqua */
+	color: #3E999F !important; /* Aqua */
 }
 
 .effect[color-number='11'] {
-	color: #66CCCC !important; /* NeoZenburnesque NeoZenburnesque: Aqua */
+	color: #66CCCC !important; /* Aqua */
 }
 
 .effect[color-number='12'] {
-	color: #7AA6DA !important; /* NeoZenburnesque NeoZenburnesqueBright: Blue */
+	color: #7AA6DA !important; /* Blue */
 }
 
 .effect[color-number='13'] {
-	color: #C397D8 !important; /* NeoZenburnesque NeoZenburnesqueBright: Purple */
+	color: #C397D8 !important; /* Purple */
 }
 
 .effect[color-number='14'] {
-	color: #8E908C !important; /* NeoZenburnesque: Comment */
+	color: #8E908C !important; /* Comment */
 }
 
 .effect[color-number='15'] {
-	color: #C5C8C6 !important; /* NeoZenburnesque Night: Foreground */
+	color: #C5C8C6 !important; /* Foreground */
 }
 
 /* @end */
@@ -602,75 +577,67 @@ div[mtype*=myself] {
 /* @group Background Colors */
 
 .effect[bgcolor-number='0'] {
-	background-color: #D6D6D6 !important; /* NeoZenburnesque: Selection */
+	background-color: #D6D6D6 !important; /* Selection */
 }
 
 .effect[bgcolor-number='1'] {
-	background-color: #4D4D4C !important; /* NeoZenburnesque: Foreground */
+	background-color: #4D4D4C !important; /* Foreground */
 }
 
 .effect[bgcolor-number='2'] {
-	background-color: #4271AE !important; /* NeoZenburnesque: Blue */
+	background-color: #4271AE !important; /* Blue */
 }
 
 .effect[bgcolor-number='3'] {
-	background-color: #718C00 !important; /* NeoZenburnesque: Green */
+	background-color: #718C00 !important; /* Green */
 }
 
 .effect[bgcolor-number='4'] {
-	background-color: #C82829 !important; /* NeoZenburnesque: Red */
+	background-color: #C82829 !important; /* Red */
 }
 
 .effect[bgcolor-number='5'] {
-	background-color: #DE935F !important; /* NeoZenburnesque Night: Red */
+	background-color: #DE935F !important; /* Red */
 }
 
 .effect[bgcolor-number='6'] {
-	background-color: #8959A8 !important; /* NeoZenburnesque: Purple */
+	background-color: #8959A8 !important; /* Purple */
 }
 
 .effect[bgcolor-number='7'] {
-	background-color: #F5871F !important; /* NeoZenburnesque: Orange */
+	background-color: #F5871F !important; /* Orange */
 }
 
 .effect[bgcolor-number='8'] {
-	background-color: #EAB700 !important; /* NeoZenburnesque: Yellow */
+	background-color: #EAB700 !important; /* Yellow */
 }
 
 .effect[bgcolor-number='9'] {
-	background-color: #B9CA4A !important; /* NeoZenburnesque NeoZenburnesqueBright: Green */
+	background-color: #B9CA4A !important; /* Green */
 }
 
 .effect[bgcolor-number='10'] {
-	background-color: #3E999F !important; /* NeoZenburnesque: Aqua */
+	background-color: #3E999F !important; /* Aqua */
 }
 
 .effect[bgcolor-number='11'] {
-	background-color: #66CCCC !important; /* NeoZenburnesque NeoZenburnesque: Aqua */
+	background-color: #66CCCC !important; /* Aqua */
 }
 
 .effect[bgcolor-number='12'] {
-	background-color: #7AA6DA !important; /* NeoZenburnesque NeoZenburnesqueBright: Blue */
+	background-color: #7AA6DA !important; /* Blue */
 }
 
 .effect[bgcolor-number='13'] {
-	background-color: #C397D8 !important; /* NeoZenburnesque NeoZenburnesqueBright: Purple */
+	background-color: #C397D8 !important; /* Purple */
 }
 
 .effect[bgcolor-number='14'] {
-	background-color: #8E908C !important; /* NeoZenburnesque: Comment */
+	background-color: #8E908C !important; /* Comment */
 }
 
 .effect[bgcolor-number='15'] {
-	background-color: #C5C8C6 !important; /* NeoZenburnesque Night: Foreground */
+	background-color: #C5C8C6 !important; /* Foreground */
 }
 
 /* @end */
-
-/* @end */
-
-/*
-	vim: set foldmethod=marker:
-	vim: set foldmarker=@group,@end:
-	vim: set nofoldenable:
- */
