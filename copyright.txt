@@ -1,0 +1,15 @@
+This style is based on the Simplified Light style shipped 
+with Textual as of version 4.1.4.
+
+The colors are taken from the Zenburn colors coded in:
+http://danson.grafidog.com/2010/10/zenburn-color-chart.html
+
+Please see:
+https://github.com/lcappuccio/NeoZenburn
+
+
+Simplified Light original copyright:
+
+This style is a modified and stripped down version of 
+the "Simplified" theme developed by "Cowboy" Ben Alman
+(http://benalman.com/). Copyright © 2010, 2011, 2012.
