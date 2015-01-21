@@ -374,7 +374,7 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='0'],
 .inline_nickname[colornumber='0'] {
-	color: #D24D57; /* NeoZenburnesque: Chestnut Rose */
+	color: #F22613; /* NeoZenburnesque: Chestnut Rose */
 }
 
 .sender[mtype*=normal][colornumber='1'],
@@ -394,7 +394,7 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='4'],
 .inline_nickname[colornumber='4'] {
-	color: #913D88; /* NeoZenburnesque: Plum */
+	color: #BF55EC; /* NeoZenburnesque: Medium Purple */
 }
 
 .sender[mtype*=normal][colornumber='5'],
@@ -429,7 +429,7 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='11'],
 .inline_nickname[colornumber='11'] {
-	color: #3FC380; /* NeoZenburnesque: Emerald */
+	color: #C8F7C5; /* NeoZenburnesque: Madang */
 }
 
 .sender[mtype*=normal][colornumber='12'],
@@ -449,7 +449,7 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='14'],
 .inline_nickname[colornumber='14'] {
-	color: #96281B; /* NeoZenburnesque: Old Brick */
+	color: #F62459; /* NeoZenburnesque: Radical Red */
 }
 
 .sender[mtype*=normal][colornumber='15'],
@@ -459,7 +459,7 @@ div[mtype*=myself] {
 
 .sender[mtype*=normal][colornumber='16'],
 .inline_nickname[colornumber='16'] {
-	color: #1E824C; /* NeoZenburnesque: Salem */
+	color: #2ECC71; /* NeoZenburnesque: Shamrock */
 }
 
 .sender[mtype*=normal][colornumber='17'],
