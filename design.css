@@ -228,7 +228,7 @@ div[id=mark] {
 	transition: background-color 0.5s;
 	z-index: 190;
 	position: relative;
-	background-color: rgba(255, 197, 143, 0.25) !important; /* NeoZenburnesque NeoZenburnesqueBlue: Orange 25% */
+	background-color: #6C7A89 !important; /* NeoZenburnesque NeoZenburnesqueBlue: Lynch */
 }
 
 /* @end */
@@ -240,7 +240,7 @@ div[id=mark] {
 	z-index: 191;
 	position: relative;
 	font-weight: normal;
-	background-color: rgba(255, 157, 164, 0.25) !important; /* NeoZenburnesque NeoZenburnesqueBlue: Red 25% */
+	background-color: #6C7A89 !important; /* NeoZenburnesque NeoZenburnesqueBlue: Lynch */
 }
 
 div[ltype*=privmsg] .sender {
